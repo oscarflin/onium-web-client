@@ -1,0 +1,44 @@
+{
+  "name": "onium-web-client",
+  "version": "0.7.5",
+  "description": "Onium Web Client",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "dotenv": "^6.2.0",
+    "nprogress": "^0.2.0",
+    "qs": "^6.6.0",
+    "socket.io-client": "^2.2.0",
+    "vue": "^2.5.21",
+    "vue-axios": "^2.1.4",
+    "vue-gallery-slideshow": "^1.3.0",
+    "vue-loading-overlay": "^3.1.1",
+    "vue-multiselect": "^2.1.3",
+    "vue-picture-input": "^2.1.6",
+    "vue-router": "^3.0.1",
+    "vue-slider-component": "^2.8.4",
+    "vue-socket.io": "^3.0.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.com/evildevel/onium-web-client.git"
+  },
+  "license": "SEE LICENSE IN 'LICENSE' FILE",
+  "author": "Max Selivanov <max@evildevel.com> (http://evildevel.com)"
+}
